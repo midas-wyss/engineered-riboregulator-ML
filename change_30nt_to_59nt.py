@@ -25,10 +25,10 @@ def make_rev_complement(string):
 # Make function to check for stop codons
 def check_for_stop(toehold): 
     stop_codons = ['TAG', 'TAA', 'TGA']
-    location_of_start = 49
-    search1 = toehold.find(stop_codons[0]) > location_of_start
-    search2 = toehold.find(stop_codons[1]) > location_of_start
-    search3 = toehold.find(stop_codons[2]) > location_of_start
+    location_of_start = 47
+    search1 = toehold.find(stop_codons[0]) == location_of_start
+    search2 = toehold.find(stop_codons[1]) == location_of_start
+    search3 = toehold.find(stop_codons[2]) == location_of_start
     return (search1 | search2  | search3)
 
 # Make function to actually turn trigger into toehold
@@ -41,10 +41,10 @@ def turn_switch_to_toehold(switch):
 # main function
 def main(switches):
     toeholds = [turn_switch_to_toehold(x) for x in switches]
-    print('Total of ' + len(toeholds) + ' number of switches.')
+    #print('Total of ' + str(len(toeholds)) + ' number of switches.')
     no_stop = [x for x in no_start if not check_for_stop(x)]
-    print('After checking for stop codons, total of ' + len(no_stop) + ' number of switches.')
+    #print('After checking for stop codons, total of ' + str(len(no_stop)) + ' number of switches.')
 
     all_new_toeholds = pd.DataFrame(no_stop)
-    return all_new_toeholds
+    return no_stop
 
