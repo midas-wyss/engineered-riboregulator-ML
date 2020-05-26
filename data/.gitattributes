@@ -1,0 +1,4 @@
+newQC_toehold_data.csv filter=lfs diff=lfs merge=lfs -text
+oldQC_toehold_data.csv filter=lfs diff=lfs merge=lfs -text
+seqs_thru_model.csv filter=lfs diff=lfs merge=lfs -text
+downsampled_pruned_old_data.csv filter=lfs diff=lfs merge=lfs -text
