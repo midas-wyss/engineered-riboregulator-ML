@@ -1,6 +1,6 @@
 # Sequence-to-function deep learning frameworks for engineered riboregulators
 
-This repository provides code for [Valeri, Collins, Ramesh, et al. 2019](https://www.biorxiv.org/content/10.1101/870055v1). 
+This repository provides code for [Valeri, Collins, Ramesh, et al. 2020](https://www.biorxiv.org/content/10.1101/870055v1). 
 
 ## Summary
 We introduce STORM and NuSpeak, two deep learning pipelines that work in concert to characterize and optimize synthetic riboregulators.
