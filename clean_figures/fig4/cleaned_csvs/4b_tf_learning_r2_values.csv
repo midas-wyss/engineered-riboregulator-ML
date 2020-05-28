@@ -1,0 +1,5 @@
+,model,r2
+0,onoff_original,0.0001870549781640036
+1,just_green,0.7275583582304106
+2,tf_initialization,0.3606370845251083
+3,tf_freeze_weights,0.5947029157396619
