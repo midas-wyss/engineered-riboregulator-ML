@@ -17,7 +17,7 @@ A web version of these tools has been made available to ease integration into la
 ## Running notebooks
 This virtual environment and packages have only been tested on a Mac running Mojave, so no guarantees if you have another system or OS.
 
-0. Download this repo from github using the "Code" button and navigate to it.
+0. Download this repo from github using the "Code" button (top right) and navigate into the folder. We recommend using the download code as zip file instead of using command line git so you won't have to install git-lfs, which we use to manage the large data csv files.
     
 1. Make a virtual environment with conda and python 3.7 (assume both are already installed)
 ```
