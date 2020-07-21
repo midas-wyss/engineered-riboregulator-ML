@@ -17,11 +17,7 @@ A web version of these tools has been made available to ease integration into la
 ## Running notebooks
 This virtual environment and packages have only been tested on a Mac running Mojave, so no guarantees if you have another system or OS.
 
-0. Download this repo from github and navigate to it:
-```
-    git clone https://github.com/midas-wyss/engineered-riboregulator-ML
-    cd engineered-riboregulator-ML
-```
+0. Download this repo from github using the "Code" button and navigate to it.
     
 1. Make a virtual environment with conda and python 3.7 (assume both are already installed)
 ```
