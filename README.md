@@ -13,3 +13,24 @@ In the clean_figures/ folder, we have code to reproduce each figure in the paper
 
 ## Website
 A web version of these tools has been made available to ease integration into lab workflows. The beta version of our website is available at https://storm-toehold.herokuapp.com. Please note there is a ~10 second delay on startup if the website has not been used in a while. For any feedback, questions, or bug reports, email valerij@mit.edu.
+
+## Running notebooks
+This virtual environment and packages have only been tested on a Mac running Mojave, so no guarantees if you have another system or OS.
+
+0. Download this repo from github and navigate to it:
+    git clone https://github.com/midas-wyss/engineered-riboregulator-ML
+    cd engineered-riboregulator-ML
+    
+1. Make a virtual environment with conda and python 3.7 (assume both are already installed)
+    conda update conda
+    conda create -n myenv python=3.7 anaconda
+    conda activate myenv
+    
+2. Download everything in the requirements.txt package:
+    pip3 install -r requirements.txt
+    
+3. Run jupyter notebook (make sure to switch the KERNEL to myenv)
+    jupyter notebook
+    
+4. To leave the venv, run:
+    conda deactivate myenv
