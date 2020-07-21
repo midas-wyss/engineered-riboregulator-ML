@@ -1,0 +1,5 @@
+,spearman,model
+0,-0.01826086956521739,onoff_original
+1,-0.0608695652173913,just_green
+2,0.021739130434782605,tf_initialization
+3,0.20173913043478262,tf_freeze_weights
