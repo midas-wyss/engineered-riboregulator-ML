@@ -44,5 +44,5 @@ This virtual environment and packages have only been tested on a Mac running Moj
     
 4. To leave the venv, run:
 ```
-    conda deactivate myenv
+    conda deactivate
 ```
