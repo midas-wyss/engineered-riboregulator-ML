@@ -35,8 +35,10 @@ This virtual environment and packages have only been tested on a Mac running Moj
     pip3 install -r requirements.txt
 ```
     
-3. Run jupyter notebook (make sure to switch the KERNEL to myenv)
+3. Run jupyter notebook (make sure to switch the KERNEL to myenv) after adding the new venv to your jupyter.
 ```
+    pip3 install --user ipykernel
+    python -m ipykernel install --user --name=myenv
     jupyter notebook
 ```
     
