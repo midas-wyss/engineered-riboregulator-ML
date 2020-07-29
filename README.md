@@ -21,7 +21,6 @@ This virtual environment and packages have only been tested on a Mac running Moj
     
 1. Make a virtual environment with conda and python 3.7 (assume both are already installed)
 ```
-    conda update conda
     conda create -n myenv python=3.7 anaconda
     conda activate myenv
 ```
