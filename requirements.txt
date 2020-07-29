@@ -33,7 +33,6 @@ jupyter-core==4.6.3
 Keras==2.2.5
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
-keras-vis @ git+https://github.com/raghakot/keras-vis.git@90ae5565951b5e6a90d706b8205c2c4dfc271505
 kiwisolver==1.2.0
 logging-exceptions==0.1.8
 logomaker==0.8
@@ -68,7 +67,6 @@ scikit-image==0.17.2
 scikit-learn==0.23.1
 scipy==1.1.0
 seaborn==0.10.1
-seqprop==0.1
 six==1.15.0
 tensorboard==1.15.0
 tensorboard-plugin-wit==1.7.0
@@ -87,3 +85,5 @@ Werkzeug==1.0.1
 wrapt==1.12.1
 xlrd==1.2.0
 zipp==3.1.0
+git+git://github.com/johli/seqprop.git
+git+git://github.com/raghakot/keras-vis.git
