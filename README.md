@@ -27,6 +27,8 @@ This virtual environment and packages have only been tested on a Mac running Moj
 ```
     pip3 install git-lfs
     git clone https://github.com/midas-wyss/engineered-riboregulator-ML
+    git lfs checkout
+    git lfs fetch
 ```    
 
 2. Download everything in the requirements.txt package:
