@@ -31,6 +31,7 @@ This virtual environment and packages have only been tested on a Mac running Moj
     cd engineered-riboregulator-ML/
     git lfs checkout
     git lfs fetch
+    git lfs pull
 ```    
 
 2. Download everything in the requirements.txt package:
