@@ -25,8 +25,10 @@ This virtual environment and packages have only been tested on a Mac running Moj
     
 1. Install git-lfs and git clone the repository.
 ```
-    pip3 install git-lfs
+    brew install git-lfs
+    git lfs install
     git clone https://github.com/midas-wyss/engineered-riboregulator-ML
+    cd engineered-riboregulator-ML/
     git lfs checkout
     git lfs fetch
 ```    
