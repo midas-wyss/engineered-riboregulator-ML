@@ -143,7 +143,7 @@ srsly==1.0.2
 tensorboard-plugin-wit==1.7.0
 tensorboard==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow==1.15.3
+tensorflow==1.15.4
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
