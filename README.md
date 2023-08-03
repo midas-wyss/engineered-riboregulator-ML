@@ -12,7 +12,7 @@ While synthetic biology has revolutionized our approaches to medicine, agricultu
 In the clean_figures/ folder, we have code to reproduce key figures and statistics from the manuscript. There are also example notebooks in the main folder corresponding to demos for NuSpeak and STORM. For the CNN-based predictions, a notebook to use the trained model for predicting ON and OFF values of toehold sequences has been uploaded as well as a notebook to use the trained model and our gradient ascent framework for optimizing toehold sequences has been uploaded. Example sequences for both are located in their respective folders, where the output of the notebook will display. Additionally, corresponding notebooks for the language model prediction and optimization are available. Please contact valerij@mit.edu for clarifications/comments/issues.
 
 ## Website
-A web version of these tools has been made available to ease integration into lab workflows. The beta version of our website is available at https://storm-toehold.herokuapp.com. Please note there is a ~10 second delay on startup if the website has not been used in a while. For any feedback, questions, or bug reports, email valerij@mit.edu.
+A web version of these tools has been made available to ease integration into lab workflows. The beta version of our website is available at https://storm-toehold.herokuapp.com. Please note there is a ~10 second delay on startup if the website has not been used in a while. If you have any issues, questions, or concerns, please do not hesitate to open up an issue or contact jackievaleri8 "at" gmail "dot" com.
 
 ## Running notebooks
 This virtual environment and packages have only been tested on a Mac running Mojave. If you are running a different OS, some issues may arise.
